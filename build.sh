@@ -5,7 +5,7 @@
 # sh run.sh stop
 
 # 执行打包
-mvn clean package -Dmaven.test.skip=true
+mvn clean package -Dmaven.test.skip=true -Ph2
 
 # 运行
 # sh run.sh start
